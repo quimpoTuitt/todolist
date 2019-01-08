@@ -5,6 +5,7 @@ $username = 'charlesqui';
 $password = 'db4freenet';
 $dbname = 'todolistph';
 
+
 $conn = mysqli_connect($host, $username, $password, $dbname);
 
 if (!$conn) {
